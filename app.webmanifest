@@ -1,0 +1,19 @@
+{
+    "name": "PWA",
+    "short_name": "PWA",
+    "manifest_version": 2,
+    "description": "Just a sample progressive web app.",
+    "start_url": "/",
+    "scope": "/",
+    "display": "standalone",
+    "background_color": "#F1F5F9",
+    "orientation": "portrait",
+    "theme_color": "#F1F5F9",
+    "icons": [
+        {
+            "src": "/siteIcon.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        }
+    ]
+}
