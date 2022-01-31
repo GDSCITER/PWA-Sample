@@ -1,29 +1,19 @@
-import { setup, tw } from 'https://cdn.skypack.dev/twind/shim'
-import * as colors from 'https://cdn.skypack.dev/twind/colors'
-
-// initializing Twind CSS-In-JS compiler
-// see 👉 https://twind.dev
-setup({
-    hash: false,
+// configuration of TailwindCSS framework
+tailwind.config = {
     darkMode: false,
     theme: {
         fontFamily: {
             body: ['Lexend Deca', 'sans-serif']
         },
-        container: {
-            center: true
-        },
         extend: {
             colors: {
-                gray: colors.blueGray,
                 primary: '#006cff',
-                white: '#ffffff',
                 'primary-dark': '#005DE0',
                 secondary: '#000000'
             }
         }
     }
-})
+}
 
 // garbing the required elements from the DOM
 const clicker = document.querySelector('#btnClick')
